@@ -5,7 +5,7 @@
     box-sizing: border-box;
 }
 body{
-    background-color:  #eb4d4b;
+    background-color:burlywood;
 }
 #container{
     display:grid;
@@ -35,3 +35,33 @@ body{
     background-color:#34495e;
     border-radius: 5px;
 }
+/* responsive web design */
+@media (max-width:600px){
+    #container{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        padding: 10px;
+    }
+    .note{
+        width: 100%;
+        margin: 5px 0;
+        font-size: 14px;
+    }
+    .btn-add{
+        width: 100%;
+        padding: 12px;
+        font-size: 16px;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
